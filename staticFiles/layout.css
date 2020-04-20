@@ -37,3 +37,9 @@ div.area {
 	margin: auto;
 	padding-block-start: 30px;
 }
+
+.footer {
+    padding-block-start: 5%;
+    text-align: center;
+    font-size: 12px;
+}
