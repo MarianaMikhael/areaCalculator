@@ -16,5 +16,5 @@ function circle() {
     var raio = document.getElementById('inputRaio').value;
     var pi = Math.PI
     var area = pi * Math.pow(raio, 2);
-    alert("A área da circunferência é " + area.toFixed(2) + " cm²");
+    alert("A área da círculo é " + area.toFixed(2) + " cm²");
 }
