@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ALMSolutions</title>
 
+    <!-- Estilização da Página -->
+    <link rel="stylesheet" type="text/css" href="staticFiles/layout.css">
+    
+    <!-- Funções JavaScript responsáveis por executar os comandos da calculadora -->
     <script src="staticFiles/functions.js"></script>
 
 </head>
@@ -13,34 +17,37 @@
 <body>
     <!-- Calculo da área de um quadrado -->
     <div class="area">
+        <span><h2>Área do Quadrado</h2></span>
         <form name="areaSquare" method="POST" action="functions.js"></form>
             <div>
                 <label for="inputSquare">Digite a dimensão de um dos lados: </label>
-                <input type="text" name="inputSquare" id="inputSquare" placeholder="Exemplo: 9 ou 99.99" />
+                <input type="text" name="inputSquare" id="inputSquare" class="input" placeholder="Exemplo: 9 ou 99.99" />
             </div>
-            <input type="button" id="square" value="Calcular Área do Quadrado" onclick="square()">
+            <input type="button" id="square" value="Calcular" class="btn" onclick="square()">
         </form>
     </div>
 
     <!-- Calculo da área de um cubo -->
     <div class="area">
+        <span><h2>Área do Cubo</h2></span>
         <form name="areaCube" method="POST" action="functions.js"></form>
             <div>
                 <label for="inputCube">Digite a dimensão de um dos lados: </label>
-                <input type="text" name="inputCube" id="inputCube" placeholder="Exemplo: 9 ou 99.99" />
+                <input type="text" name="inputCube" id="inputCube" class="input" placeholder="Exemplo: 9 ou 99.99" />
             </div>
-            <input type="button" id="cube" value="Calcular Área do Cubo" onclick="cube()">
+            <input type="button" id="cube" value="Calcular" class="btn" onclick="cube()">
         </form>
     </div>
 
     <!-- Calculo da área de uma circinferência -->
     <div class="area">
+        <span><h2>Área da Circinferência</h2></span>
         <form name="areaCircle" method="POST" action="functions.js"></form>
             <div>
                 <label for="inputRaio">Digite o valor do raio: </label>
-                <input type="text" name="inputRaio" id="inputRaio" placeholder="Exemplo: 9 ou 99.99" />
+                <input type="text" name="inputRaio" id="inputRaio" class="input" placeholder="Exemplo: 9 ou 99.99" />
             </div>
-            <input type="button" id="circle" value="Calcular Área da Cincunferência" onclick="circle()">
+            <input type="button" id="circle" value="Calcular" class="btn" onclick="circle()">
         </form>
     </div>
 

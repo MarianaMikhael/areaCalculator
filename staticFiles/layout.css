@@ -1,0 +1,38 @@
+body {
+	background-color: #E0F8F7;
+}
+
+b {
+    font-weight: bold;
+}
+  
+a, p, span,
+h1, h2, h3, h4, h5, h6,
+label, input, select, textarea, button {
+    font-family: 'Numans', sans-serif;
+}
+
+input.btn {
+    width: 80px;
+    height: 33px;
+    background: #3366FF;
+    color: white;
+    border-radius: 5px;
+}
+
+input.btn:hover {
+    background: #0000FF;
+    color: white;
+}
+
+input.input {
+    border: none;
+}
+
+div.area {
+	color: black;
+	font-size: 16px;
+	text-align: center;
+	margin: auto;
+	padding-block-start: 30px;
+}
