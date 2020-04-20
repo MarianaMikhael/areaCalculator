@@ -26,7 +26,8 @@ input.btn:hover {
 }
 
 input.input {
-    border: none;
+    width: 80px;
+    text-align: right;
 }
 
 div.area {
