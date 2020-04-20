@@ -11,9 +11,37 @@
 </head>
 
 <body>
+    <!-- Calculo da área de um quadrado -->
+    <div class="area">
+        <form name="areaSquare" method="POST" action="functions.js"></form>
+            <div>
+                <label for="inputSquare">Digite a dimensão de um dos lados: </label>
+                <input type="text" name="inputSquare" id="inputSquare" placeholder="Exemplo: 9 ou 99.99" />
+            </div>
+            <input type="button" id="square" value="Calcular Área do Quadrado" onclick="square()">
+        </form>
+    </div>
 
-    <div>
-        <input type="button" id="circle" value="Calcular Área de Uma Cincunferência" onclick="circle()">
+    <!-- Calculo da área de um cubo -->
+    <div class="area">
+        <form name="areaCube" method="POST" action="functions.js"></form>
+            <div>
+                <label for="inputCube">Digite a dimensão de um dos lados: </label>
+                <input type="text" name="inputCube" id="inputCube" placeholder="Exemplo: 9 ou 99.99" />
+            </div>
+            <input type="button" id="cube" value="Calcular Área do Cubo" onclick="cube()">
+        </form>
+    </div>
+
+    <!-- Calculo da área de uma circinferência -->
+    <div class="area">
+        <form name="areaCircle" method="POST" action="functions.js"></form>
+            <div>
+                <label for="inputRaio">Digite o valor do raio: </label>
+                <input type="text" name="inputRaio" id="inputRaio" placeholder="Exemplo: 9 ou 99.99" />
+            </div>
+            <input type="button" id="circle" value="Calcular Área da Cincunferência" onclick="circle()">
+        </form>
     </div>
 
 </body>
